@@ -1,10 +1,10 @@
 #include <Arduino.h>
 
-const byte LED_GPIO = 32;
+const byte LED_GPIO = 12;
 
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600);
+  Serial.begin(115200);
   pinMode(LED_GPIO,OUTPUT);
 }
 
